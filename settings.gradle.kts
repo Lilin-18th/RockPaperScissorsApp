@@ -15,7 +15,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TemplateProject"
+rootProject.name = "RockPaperScissors"
 include(
     ":app",
     ":feature:main",

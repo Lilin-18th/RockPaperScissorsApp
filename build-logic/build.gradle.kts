@@ -4,7 +4,7 @@ plugins {
     `kotlin-dsl`
 }
 
-group = "jp.com.template.project.app"
+group = "jp.com.janken.project.app"
 
 repositories {
     google()
@@ -29,25 +29,25 @@ dependencies {
 gradlePlugin {
     plugins {
         register("androidApplication") {
-            id = "template.primitive.android.application.plugin"
-            implementationClass = "jp.com.template.project.app.primitive.AndroidApplicationPlugin"
+            id = "janken.primitive.android.application.plugin"
+            implementationClass = "jp.com.janken.project.app.primitive.AndroidApplicationPlugin"
         }
         register("android") {
-            id = "template.primitive.android.plugin"
-            implementationClass = "jp.com.template.project.app.primitive.AndroidPlugin"
+            id = "janken.primitive.android.plugin"
+            implementationClass = "jp.com.janken.project.app.primitive.AndroidPlugin"
         }
         register("androidKotlin") {
-            id = "template.primitive.android.kotlin.plugin"
-            implementationClass = "jp.com.template.project.app.primitive.AndroidKotlinPlugin"
+            id = "janken.primitive.android.kotlin.plugin"
+            implementationClass = "jp.com.janken.project.app.primitive.AndroidKotlinPlugin"
         }
         register("androidCompose") {
-            id = "template.primitive.android.compose.plugin"
-            implementationClass = "jp.com.template.project.app.primitive.AndroidComposePlugin"
+            id = "janken.primitive.android.compose.plugin"
+            implementationClass = "jp.com.janken.project.app.primitive.AndroidComposePlugin"
         }
         // Conventions
         register("androidFeature") {
-            id = "template.convention.android.feature"
-            implementationClass = "jp.com.template.project.app.convention.AndroidFeaturePlugin"
+            id = "janken.convention.android.feature"
+            implementationClass = "jp.com.janken.project.app.convention.AndroidFeaturePlugin"
         }
     }
 }

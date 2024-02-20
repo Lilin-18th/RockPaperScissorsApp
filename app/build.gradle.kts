@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "jp.com.template.project.app"
+    namespace = "jp.com.janken.project.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "jp.com.template.project.app"
+        applicationId = "jp.com.janken.project.app"
         minSdk = 29
         targetSdk = 34
         versionCode = 1
